@@ -1,0 +1,24 @@
+{
+    "name": "pleasesigneurope/pleasesign-sdk",
+    "description": "PleaseSign PHP SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PleaseSign",
+            "email": "info@pleasesign.eu"
+        }
+    ],
+    "autoload" : {
+        "psr-4":  {
+            "PleaseSign\\": "src/pleasesign/"
+        }
+    },
+    "classmap": [
+        "PleaseSign/"
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "~6.0"
+    }
+}
